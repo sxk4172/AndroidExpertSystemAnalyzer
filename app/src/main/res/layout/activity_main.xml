@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sourabh_deshkulkarni.androidexpertsystemanalyzer.MainActivity"
+    android:background="@color/material_deep_teal_200">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Expert Security Analyzer"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"
+        android:background="@color/material_deep_teal_500"
+        android:gravity="center"
+        android:typeface="monospace"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan System"
+        android:id="@+id/scanButton"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="&quot;App stores and mobile apps are the greatest hostile code and malware delivery mechanism ever created.&quot;— Winn Schwartau, chairman of MobileActiveDefense.com  "
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:typeface="serif"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="By Sanika and Sourabh"
+        android:id="@+id/textView3"
+        android:layout_marginTop="74dp"
+        android:textSize="20dp"
+        android:theme="@style/Base.DialogWindowTitle.AppCompat"
+        android:typeface="serif"
+        android:layout_below="@+id/scanButton"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
